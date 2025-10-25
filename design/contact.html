@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯絡我們 | 流星精選網</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">流星精選網</a></h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="products.html">商品列表</a></li>
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="切換導航菜單">☰</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="simple-page-content">
+            <h2>聯絡我們</h2>
+            <p>
+                對於拍賣品有任何疑問、需要鑑定服務，或有合作提案嗎？請填寫下方的表單，我們的團隊將盡快與您聯繫。
+            </p>
+            
+            <form action="#" method="POST" class="contact-form">
+                
+                <div class="form-group">
+                    <label for="name">您的姓名</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">電子郵件</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">主旨</label>
+                    <input type="text" id="subject" name="subject" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">您的訊息</label>
+                    <textarea id="message" name="message" class="form-control" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">傳送訊息</button>
+
+            </form>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 流星精選網. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

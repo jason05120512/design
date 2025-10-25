@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>流星精選網</title>
-    <link href="/src/index.css" rel="stylesheet">
-  </head>
-  <body class="bg-gradient-to-br from-purple-700 to-blue-600">
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>流星精選網 - 稀有珍品拍賣</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">流星精選網</a></h1>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="products.html">商品列表</a></li>
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="切換導航菜單">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h2>探索宇宙級珍品</h2>
+                <p>獨家稀有流星碎片、太空科技藝術品，即將結標。</p>
+                <a href="products.html" class="btn btn-primary btn-lg">立即尋寶</a>
+            </div>
+        </section>
+
+        <section class="featured-products container">
+            <h2 style="text-align: center; margin-bottom: 30px;">熱門拍賣</h2>
+            <div class="product-grid">
+                
+                <article class="product-card">
+                    <div class="card-image-container">
+                        <img src="https://picsum.photos/400/300?random=10" alt="商品圖片">
+                    </div>
+                    <div class="card-content">
+                        <h4>稀有藍寶石流星</h4>
+                        <p class="price">目前出價: $12,000</p>
+                        <a href="product-detail.html" class="btn btn-secondary">查看詳情</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="card-image-container">
+                        <img src="https://picsum.photos/400/300?random=11" alt="商品圖片">
+                    </div>
+                    <div class="card-content">
+                        <h4>火星探測器紀念幣</h4>
+                        <p class="price">目前出價: $3,500</p>
+                        <a href="product-detail.html" class="btn btn-secondary">查看詳情</a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="card-image-container">
+                         <img src="https://picsum.photos/400/300?random=12" alt="商品圖片">
+                    </div>
+                    <div class="card-content">
+                        <h4>月球隕石切片</h4>
+                        <p class="price">目前出價: $8,800</p>
+                        <a href="product-detail.html" class="btn btn-secondary">查看詳情</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 流星精選網. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
 </html>
